@@ -15,7 +15,7 @@ this repository can be cloned or
 [directly downloaded](https://github.com/Vertispan/gwt-uibinder/archive/master.zip). Once that is 
 done, perform a manual maven build like the following:
 
-`mvn clean install`
+`mvn --fail-fast clean install`
 
 Then, add the uibinder dependencies to your Maven module:
 
